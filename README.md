@@ -1,6 +1,6 @@
 ---
 
-### Programação Orientada a Objetos (POO)
+# Programação Orientada a Objetos (POO)
 
 Antes de termos essa imersão com POO, precisamos entender como a Programação Orientada a Objetos facilita nossa vida. Mas afinal, o que é POO?
 
@@ -52,7 +52,7 @@ Bem, já que entendemos o que são os Construtores, Getters e Setters, vamos adi
 
 ---
 
-### Encapsulamento
+## Encapsulamento
 
 O Encapsulamento serve, resumidamente, como uma blindagem para não expor nossos dados vindo do banco na aplicação. Se você expõe suas entidades (seus atributos) diretamente, qualquer parte do código pode chegar lá e alterar o valor de uma forma que quebre a lógica do seu sistema, ou seja, não teríamos uma aplicação segura.
 
@@ -87,7 +87,7 @@ O encapsulamento permite criar campos de "apenas leitura" (só fornecendo o get)
 
 ---
 
-### Herança (Reutilização)
+## Herança (Reutilização)
 
 A Herança é o mecanismo que permite que uma classe (filha) herde todos os atributos e métodos de outra classe (pai). O principal objetivo aqui é o reuso de código. Imagine que você está construindo o sistema da sua Cidade. Você tem uma Casa e um Apartamento. Ambos têm: Endereço, Cor, Valor e Dono.
 
@@ -115,7 +115,7 @@ Por baixo dos panos, por ter esse `extends Imovel`, a casa já vai herdar automa
 
 ---
 
-### Polimorfismo
+## Polimorfismo
 
 O Polimorfismo é o que nos permite tratar uma Casa, um Apartamento ou uma Mansão simplesmente como um Imóvel. Imagine que você tem uma lista de pagamentos de IPTU. Você não precisa saber se é casa ou prédio; você só precisa chamar o método `calcularImposto()` que existe em todos eles. Cada um calcula do seu jeito, mas o comando é o mesmo!
 
@@ -172,7 +172,7 @@ public class GerenciadorDeErros {
 
 ---
 
-### Abstração (Classes Abstratas e Interfaces)
+## Abstração (Classes Abstratas e Interfaces)
 
 **1. Classes Abstratas:**
 Faz sentido existir um Imóvel "puro" que não é nem casa nem apartamento? Provavelmente não. O Imóvel é apenas um conceito. Ao usar `public abstract class Imovel`, você impede que alguém instancie um imóvel genérico (`new Imovel()`), obrigando a criação de algo específico.
