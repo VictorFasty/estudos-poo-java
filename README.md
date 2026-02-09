@@ -92,4 +92,4 @@ public interface Financiavel {
 
 ### Conclusão
 
-Entender POO é entender as engrenagens por trás do Java e do Spring. Quando você domina esses pilares, você para de apenas "escrever código" e passa a "desenhar soluções". Isso torna seu sistema escalável e fácil de manter, seja em um projeto acadêmico na **UCSAL** ou em uma aplicação robusta de nível empresarial.
+Entender POO é entender as engrenagens por trás do Java e do Spring. Quando você domina esses pilares, você para de apenas "escrever código" e passa a "desenhar soluções". Isso torna seu sistema escalável e fácil de manter, seja em um projeto acadêmico na faculdade ou em uma aplicação robusta de nível empresarial.
